@@ -1,0 +1,172 @@
+name= ['taseen', 'mumtaz', 'faizan', 'yaseen']
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+
+
+name= ['Taseen', 'Mumtaz', 'Faizan', 'Yaseen']
+print(f"Assalamualaikum, {name[0]}! How are you?")
+print(f"Assalamualaikum, {name[1]}! How are you?")
+print(f"Assalamualaikum, {name[2]}! How are you?")
+print(f"Assalamualaikum, {name[3]}! How are you?")
+
+
+name= ['Ninja H2', 'Mercedes', 'Fortuner', 'Audi']
+print(f"I would like to own a {name[0]}.")
+print(f"I would like to own a {name[1]}.")
+print(f"I would like to own a {name[2]}.")
+print(f"I would like to own a {name[3]}.")
+
+
+name= ['Taseen', 'Mumtaz', 'Faizan', 'Yaseen']
+print(f"Dear {name[0]}, I’m hosting a dinner party and would love for you to join us.")
+print(f"Dear {name[1]}, I’m hosting a dinner party and would love for you to join us.")
+print(f"Dear {name[2]}, I’m hosting a dinner party and would love for you to join us.")
+print(f"Dear {name[3]}, I’m hosting a dinner party and would love for you to join us.")
+
+
+name= ['Taseen', 'Mumtaz', 'Faizan', 'Yaseen']
+print(f"Dear {name[0]}, I’m hosting a dinner party and would love for you to join us.")
+print(f"Dear {name[1]}, I’m hosting a dinner party and would love for you to join us.")
+print(f"Dear {name[2]}, I’m hosting a dinner party and would love for you to join us.")
+print(f"Dear {name[3]}, I’m hosting a dinner party and would love for you to join us.")
+print(f"Unfortunately, {name[1]} can't make it to dinner.")
+name.remove("Mumtaz") 
+
+
+name= ['Taseen', 'Mumtaz', 'Faizan', 'Yaseen']
+name.remove("Mumtaz") 
+print(f"Dear {name[0]}, I’m hosting a dinner party and would love for you to join us.")
+print(f"Dear {name[1]}, I’m hosting a dinner party and would love for you to join us.")
+print(f"Dear {name[2]}, I’m hosting a dinner party and would love for you to join us.")
+
+
+name= ['Taseen', 'Faizan', 'Yaseen']
+print("Good news! We found a bigger dinner table.")
+
+name.insert(0, 'Mumtaz')
+name.insert(2, 'Murtaza')
+name.append('Shamas')
+for friends in name:
+    print(f"Dear {friends}, I’m hosting a dinner party and would love for you to join us.")
+
+
+
+    name = ["Mumtaz", "Taseen", "Murtaza", "Faizan", "Yaseen", "Shamas"]
+
+print("Sorry, we can only invite two people for dinner.")
+
+while len(name) > 2:
+    removed_guest = name.pop()
+    print(f"Sorry, {removed_guest}, we can't invite you to dinner.")
+
+for guest in name:
+    print(f"Dear {guest}, you are still invited to dinner.")
+
+del name[0]
+del name[0]
+
+print(name)  
+
+
+
+
+
+
+
+
+
+
+places = ["America", "Paris", "New York", "Canada", "Australia"]
+
+print(places)
+
+print(sorted(places))
+
+print(places)
+
+print(sorted(places, reverse=True))
+
+print(places)
+
+places.reverse()
+print(places)
+
+places.reverse()
+print(places)
+
+places.sort()
+print(places)
+
+places.sort(reverse=True)
+print(places)
+
+
+
+
+
+
+
+
+mountains = ["Everest", "K2", "Kilimanjaro", "Denali", "Aconcagua"]
+
+print(mountains) 
+print(sorted(mountains))  
+
+mountains.reverse()       
+print(mountains)
+
+mountains.sort()          
+print(mountains)
+
+mountains.sort(reverse=True)  
+print(mountains)
+
+print(len(mountains))     
+mountains.append("Mont Blanc")  
+print(mountains)
+
+mountains.insert(2, "Elbrus")   
+print(mountains)
+
+mountains.remove("K2")         
+print(mountains)
+
+popped_mountain = mountains.pop()  
+print(mountains)
+print(popped_mountain)           
+
+
+
+
+
+
+
+
+
+
+
+
+rivers = ["Satluj", "Chanab", "Ravi"]
+
+
+print(rivers[3])  
+
+
+
+
+
+
+
+
+
+
+
+rivers = ["Satluj", "Chanab", "Ravi"]
+
+
+print(rivers[2])  
+
+
+
